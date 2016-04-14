@@ -122,6 +122,7 @@ class AbstractedTesterClass(models.Model):
         if normalize:
             prices = normalization(prices)
         prices.reverse()
+        print prices
         return prices
 
 
